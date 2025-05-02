@@ -56,6 +56,19 @@ The **Online Feedback System** is designed to digitize the process of collecting
 - Attractive and responsive UI using embedded CSS.
 - Animated elements for better user experience.
 - Custom footer with gradient effects and dynamic display.
-
+---
 ### Folder Structure
 - <img src = "output_screenshot/FolderStructure.png" alt = "folder structure">
+---
+### Screen Shots
+- Include snapshots of the admin dashboard, User, and Feedback flow.
+
+- <img src = "output_screenshots/IndexPage.png" alt = "1 image"> 
+- <img src = "output_screenshot/UserLoginfrom.png" alt = "2 image"> 
+- <img src = "output_screenshot/RegistrationFrom.png" alt = "3 image"> 
+- <img src = "output_screenshot/FeedbackFrom.png" alt = "4 image">
+- <img src = "output_screenshot/AdminLogin.png" alt = "5 image">
+- <img src = "output_screenshot/Managequestion.png" alt = "6 image">
+- <img src = "output_screenshot/UserFeedback.png" alt = "7 image">
+
+
