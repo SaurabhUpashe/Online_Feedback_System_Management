@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    
+    <!--intersevlet mapping with index.html-->
+    <servlet>
+        <servlet-name>InterServlet</servlet-name>
+        <servlet-class>servletclasses.InterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InterServlet</servlet-name>
+        <url-pattern>/userRegister</url-pattern>
+    </servlet-mapping>
+    
+    
+     <!--UserRegisterServlet mapping with register.html-->
+    <servlet>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <servlet-class>servletclasses.UserRegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <url-pattern>/UserRegisterServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!--UserLoginServlet mapping with user_login.html-->
+    <servlet>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <servlet-class>servletclasses.UserLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <url-pattern>/UserLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!--FeedbackServlet mapping with .html-->
+    <servlet>
+        <servlet-name>FeedbackServlet</servlet-name>
+        <servlet-class>servletclasses.FeedbackServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FeedbackServlet</servlet-name>
+        <url-pattern>/FeedbackServlet</url-pattern>
+    </servlet-mapping>
+
+
+	 <!--AdminLoginServlet mapping with admin login button-->
+	<servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>servletclasses.AdminLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>QuestionServlet</servlet-name>
+        <servlet-class>servletclasses.QuestionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>QuestionServlet</servlet-name>
+        <url-pattern>/QuestionServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>ResultServlet</servlet-name>
+        <servlet-class>servletclasses.ResultServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/ResultServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>feedbackServlet</servlet-name>
+        <servlet-class>servletclasses.feedbackServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>feedbackServlet</servlet-name>
+        <url-pattern>/feedbackServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+</web-app>
