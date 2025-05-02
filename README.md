@@ -57,3 +57,5 @@ The **Online Feedback System** is designed to digitize the process of collecting
 - Animated elements for better user experience.
 - Custom footer with gradient effects and dynamic display.
 
+### Folder Structure
+- <img src = "output_screenshot/FolderStructure.png" alt = "folder structure">
