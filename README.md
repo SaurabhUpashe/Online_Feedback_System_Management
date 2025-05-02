@@ -63,7 +63,7 @@ The **Online Feedback System** is designed to digitize the process of collecting
 ### Screen Shots
 - Include snapshots of the admin dashboard, User, and Feedback flow.
 - **Index Page**
-- <img src = "output_screenshots/IndexPage.png" alt = "1 image"> 
+- <img src = "output_screenshots/indexPage.png" alt = "1 image"> 
 - **User Login Page**
 - <img src = "output_screenshot/UserLoginfrom.png" alt = "2 image"> 
 - **Registration Page**
