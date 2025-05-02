@@ -9,13 +9,8 @@ A simple and efficient web-based feedback management system built using **Java S
 - [Project Description](#project-description)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Database Design](#database-design)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Screenshots](#screenshots)
-- [License](#license)
-
 ---
 
 ## 📖 Project Description
@@ -63,7 +58,7 @@ The **Online Feedback System** is designed to digitize the process of collecting
 ### Screen Shots
 - Include snapshots of the admin dashboard, User, and Feedback flow.
 - **Index Page**
-- <img src = "output_screenshots/indexPage.png" alt = "1 image"> 
+- <img src = "output_screenshot/indexPage.png" alt = "1 image"> 
 - **User Login Page**
 - <img src = "output_screenshot/UserLoginfrom.png" alt = "2 image"> 
 - **Registration Page**
